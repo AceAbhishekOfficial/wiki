@@ -37,7 +37,7 @@ public OnPlayerDeath(playerid, killerid, reason)
 :::warning
 
 Do note that the players may crash because of odd number of tilde (~) symbols used in the game text. Using color codes (e.g. ~r~) beyond the 255th character may crash the client.
-
+Adding blankspace at end of string may result in faliure ex: " Headshot " results in faliure , instead it should be " Headshot" or " HEADSHOT_" .
 :::
 
 ## Related Functions
